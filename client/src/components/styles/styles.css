@@ -28,11 +28,6 @@ margin-top: 100px;
 
 
 
-.container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px;
-}
 
 
 .footer {
@@ -43,4 +38,9 @@ margin-top: 100px;
   background-color: red;
   color: white;
   text-align: center;
+}
+
+
+#about{
+  margin-top: 15px;
 }

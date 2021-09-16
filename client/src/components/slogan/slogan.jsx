@@ -1,12 +1,14 @@
 import React from "react";
-import "../styles/styles.css";
+import "./slogan.css";
 
 
-function Slogan(){
+function Slogan(props){
   return(
 
-    <h2 id="slogan">As seen in your city</h2>
-    )
+<div class="typewriter">
+  <h4 style={{color: "black"}}>{props.text}</h4>
+</div>    
+)
 }
 
 export default Slogan;
