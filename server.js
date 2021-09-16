@@ -20,3 +20,11 @@ app.get("*", function(req, res) {
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
+
+
+
+
+
+
+// custom domain name added and loading
+// react app works deployed

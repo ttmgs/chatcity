@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+import Image from './components/images/image';
+import logo from "./components/images/aaa.jpeg";
 import './App.css';
+import Container  from "./components/container/container";
+import Line from './components/line/line';
+import Slogan from "./components/slogan/slogan";
+import About from './components/about/about';
+import Footer from './components/footer/footer';
+import Store from './components/store.jsx/store';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <div>
+
+  <div class="container bcontent">
+  <hr />
+  <div class="card" style={{width: "500px;"}}>
+      <div class="row no-gutters">
+          <div class="col-sm-5">
+            <center>
+              <img class="card-img" src={logo} style={{width: "250px"}} alt="Suresh Dasari Card" />
+              </center>
+          </div>
+          <div class="col-sm-7">
+            <Store />
+            <center>
+            <Slogan />
+            </center>
+              <div class="card-body">
+              <About />
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<Footer />
+</div>
+
   );
 }
 
