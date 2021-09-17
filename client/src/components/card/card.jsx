@@ -2,15 +2,15 @@ import React, {useEffect} from "react";
 import Slogan from "../slogan/slogan";
 import Store from '../store.jsx/store';
 import "../styles/styles.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 
 
 function Card(props){
 
-  useEffect(() => {
-    Aos.init({ duration: 1000});
-  }, [])
+  // useEffect(() => {
+  //   Aos.init({ duration: 1000});
+  // }, [])
   
 
 
@@ -18,7 +18,7 @@ function Card(props){
 <div className="container p-3 my-3 border">
   <div className="card">
    
-  <div data-aos="fade-left">
+  {/* <div data-aos="fade-left"> */}
 <div className="row no-gutters">
           <div className="col-sm-5">
           </div>
@@ -39,7 +39,7 @@ function Card(props){
 </div>
 </div>
 </div>
-</div>
+// </div>
 
 
   )
