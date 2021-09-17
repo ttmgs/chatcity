@@ -4,8 +4,6 @@ import Card  from "./components/card/card";
 import Footer from "./components/footer/footer.jsx";
 import Nav from './components/navbar/nav';
 import details from "./components/details/details";
-import ScrollAnimation from 'react-animate-on-scroll';
-import { useState } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
