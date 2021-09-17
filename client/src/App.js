@@ -16,6 +16,8 @@ function App() {
 
 <Card heading={details[1].heading} text={details[1].description}/>
 
+<Card heading={details[2].heading} text={details[2].description}/>
+
 <Footer />
 </div>
 
@@ -26,8 +28,9 @@ export default App;
 
 
 
-
-// add onscroll animations
+// 
+// add onscroll animations works
+// add to portfolio
 
 
 

@@ -7,7 +7,7 @@ function Nav(){
     <header>
     {/* <!-- Fixed navbar --> */}
     <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-white">
-      <img src={logo} style={{width: "50px"}}></img>
+      <img src={logo} style={{width: "70px"}}></img>
     </nav>
   </header>
   )
