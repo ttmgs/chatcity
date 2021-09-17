@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../images/aaa.jpeg";
 import Line from '../line/line';
 import Slogan from "../slogan/slogan";
@@ -7,16 +7,16 @@ import Nav from "../navbar/nav";
 import "../styles/styles.css";
 
 
-
 function Card(props){
-  return(
 
+
+
+  return(
 <div class="container p-3 my-3 border">
-  <div class="card" style={{width: "500px;"}}>
+  <div class="card">
    
 <div class="row no-gutters">
           <div class="col-sm-5">
-
           </div>
           <div class="col-sm-5">
               <div class="card-body">
@@ -30,7 +30,6 @@ function Card(props){
           </div>
           <div class="col-sm-5">
               <div class="card-body">
-             
               </div>
           </div>
 </div>
@@ -45,3 +44,5 @@ function Card(props){
 
 
 export default Card;
+
+
