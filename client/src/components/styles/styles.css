@@ -39,11 +39,12 @@ margin-top: 100px;
 }
 
 #main{
-  margin-top: 100px;
+  margin-top: 110px;
 }
 
 #text{
-color: black;
+color: rgb(0, 0, 0);
+font-weight: 900;
 }
 
 
@@ -61,4 +62,33 @@ color: black;
   .icolumn {
     width: 100%;
   }
+}
+
+
+body{
+}
+
+
+
+
+
+.speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
 }

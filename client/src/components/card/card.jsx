@@ -15,7 +15,9 @@ function Card(props) {
     <div id="main">
       <div id="container" class="container p-3 my-3 border">
         <div className="row no-gutters">
+          <div className="speech-bubble">
           <Slogan heading={props.heading} />
+          </div>
           <div id="text">
             {props.text}
             </div>
