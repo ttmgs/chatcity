@@ -4,20 +4,34 @@ import Card  from "./components/card/card";
 import Footer from "./components/footer/footer.jsx";
 import Nav from './components/navbar/nav';
 import details from "./components/details/details";
-
+import apple from "./components/images/apple.png";
+import play from "./components/images/paly.png";
+import connect from "./components/images/conn.png";
+import applei from "./components/images/applei.png";
+import goog from "./components/images/goog.png";
+import comm from "./components/images/comm.jpeg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
 
   return (
 
 <div>
   <Nav />
-<Card heading={details[0].heading} text={details[0].description}/>
+  <div data-aos="zoom-in-down"> 
+<Card heading={details[0].heading} text={details[0].description} aimg={apple} bimg={play}/>
+</div>
 
-<Card heading={details[1].heading} text={details[1].description}/>
-
-<Card heading={details[2].heading} text={details[2].description}/>
-
+<div data-aos="flip-left"> 
+<Card heading={details[1].heading} aimg={connect} bimg={comm} text={details[1].description}/>
+</div>
+<div data-aos="fade-up"> 
+<Card text={details[2].description} aimg={applei} bimg={goog}/>
+</div>
 <Footer />
 </div>
 

@@ -1,54 +1,37 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Slogan from "../slogan/slogan";
-import Store from '../store.jsx/store';
+import Footer from "../footer/footer";
+import Store from "../store.jsx/store";
 import "../styles/styles.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-
-function Card(props){
-
+function Card(props) {
   useEffect(() => {
-    Aos.init({ duration: 1000});
-  }, [])
-  
+    Aos.init({ duration: 1000 });
+  }, []);
 
-
-  return(
-<div className="container p-3 my-3 border">
-  <div className="card">
-   
-  <div data-aos="fade-left">
-<div className="row no-gutters">
-          <div className="col-sm-5">
+  return (
+    <div id="main">
+      <div id="container" class="container p-3 my-3 border">
+        <div className="row no-gutters">
+          <Slogan heading={props.heading} />
+          <div id="text">
+            {props.text}
+            </div>
           </div>
-          <div className="col-sm-5">
-              <div className="card-body">
-              <div id="about">
-               <Slogan heading={props.heading} />
-               <h5 id="aboutp">
-               {props.text}
-               </h5>
-                </div>              
-                </div>
-          </div>
-          <div className="col-sm-5">
-              <div className="card-body">
-              </div>
-          </div>
-</div>
-</div>
-</div>
-</div>
+          <br></br>
 
-
-  )
+  <div class="icolumn">
+  <a href="www.apple.com" alt="yeo"><img src={props.aimg} alt="apple" style={{ width: "100px"}}></img></a>
+  <a href="www.apple.com" alt="yeo"><img src={props.bimg} alt="apple" style={{ width: "50px"}}></img></a>
+  </div>
+        </div>
+    </div>
+  );
 }
-
-
-
 
 export default Card;
 
 
-
+//  <div data-aos="fade-left"> 

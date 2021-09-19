@@ -1,4 +1,5 @@
 
+
 const details = [ 
   {
     heading: "Who are we? ...",
@@ -7,7 +8,7 @@ const details = [
   },
   {
     heading: "Our Mission ...",
-    description: "ChatCitys mission is to connect people who share related interests . "
+    description: "ChatCitys mission is to connect people who share related interests. Create your own chat or join a local chat supported by your community."
   },
   {
     heading: "Download",

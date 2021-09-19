@@ -6,8 +6,7 @@ function Footer(){
   return(
 
 
-    <footer className="footer mt-auto py-3 bg-light">
-  <div className="container">
+    <div className="footer">
     <span className="text-muted">      
     <a href="https://app.termly.io/document/privacy-policy/8f6fd013-da4c-4f17-a4b8-00af5a550e57">Private Policy  </a>
 </span>
@@ -19,8 +18,7 @@ function Footer(){
     <span className="text-muted">
       <a href="https://app.termly.io/document/disclaimer/ae2e9ef0-f66f-4dc6-9f3a-aa5e9a3a00b9"> &nbsp; Disclaimer</a>
     </span>
-  </div>
-</footer>
+</div>
 
 
 

@@ -6,7 +6,7 @@ function Slogan(props){
   return(
 
 <div className="typewriter">
-  <h4 style={{color: "black"}}>{props.heading}</h4>
+  <h1 style={{color: "black"}}>{props.heading}</h1>
 </div>    
 )
 }
