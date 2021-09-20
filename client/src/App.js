@@ -10,6 +10,7 @@ import connect from "./components/images/conn.png";
 import applei from "./components/images/applei.png";
 import goog from "./components/images/goog.png";
 import comm from "./components/images/comm.jpeg";
+import ap from "./components/images/ga.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -23,14 +24,14 @@ function App() {
 <div>
   <Nav />
   <div data-aos="zoom-in-down"> 
-<Card heading={details[0].heading} text={details[0].description} aimg={apple} bimg={play}/>
+<Card heading={details[0].heading} text={details[0].description} aimg={applei} bimg={goog}/>
 </div>
 
-<div data-aos="flip-left"> 
+<div data-aos="fade-down"> 
 <Card heading={details[1].heading} aimg={connect} bimg={comm} text={details[1].description}/>
 </div>
 <div data-aos="fade-up"> 
-<Card text={details[2].description} aimg={applei} bimg={goog}/>
+<Card heading={details[2].heading} aimg={applei} bimg={goog}/>
 </div>
 <Footer />
 </div>

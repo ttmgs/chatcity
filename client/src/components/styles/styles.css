@@ -21,7 +21,6 @@ margin-top: 100px;
 }
 
 
-
 .footer {
   position: fixed;
   left: 0;
@@ -34,9 +33,13 @@ margin-top: 100px;
 
 .container{
   height: fit-content;
-  line-height: 50px;
+  line-height: 40px;
   font-size: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  outline-style: double;
 }
+
 
 #main{
   margin-top: 110px;
@@ -66,9 +69,12 @@ font-weight: 900;
 
 
 body{
+  background-color: rgb(155, 80, 149);
 }
 
-
+.nav {
+  background-color: chocolate;
+}
 
 
 

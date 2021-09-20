@@ -1,4 +1,5 @@
-.typewriter h1 {
+.typewriter h4 {
+  text-align: center;
   padding: 20px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -20,4 +21,10 @@
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+
+
+#id{
+  margin: auto;
 }
