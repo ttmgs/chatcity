@@ -72,9 +72,9 @@ body{
   background-color: rgb(155, 80, 149);
 }
 
-.nav {
-  background-color: chocolate;
-}
+.navbar {
+  height: fit-content;
+ }
 
 
 
